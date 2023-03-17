@@ -1,0 +1,12 @@
+span {
+  margin: 38px 0;
+}
+
+.Podcast {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 32px;
+  margin: 15px 50px;
+}
+

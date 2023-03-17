@@ -1,0 +1,38 @@
+.Card2 {
+  display: grid;
+  column-gap: 180px;
+  grid-template-columns: 125px 1fr;
+  align-items:center;
+  min-height: 255px;
+  margin: 0;
+  background-color: #242424;
+  padding: 0 43px;
+  border-radius:10px;
+}
+
+.img2 {
+  width: 290px;
+  height: 160px;
+  background-color: #313131;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+@media (max-width:1000px) {
+  .Podcast {
+    margin: 15px 15px;
+  }
+  .Card2 {
+    display: flex;
+    padding: 20px 20px;
+    min-height: 200px;
+    flex-direction: column;
+  }
+  .img2 {
+    width: 200px;
+    height: 150px;
+  }
+}
