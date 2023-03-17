@@ -4,11 +4,7 @@
 # Setups of Project
 - React for build frontend
 - React-router-dom for create routes between project
-- Vite for devepoment the project
-- Bootstrap for stylize some components
-- Firebase for storage and authentication
-- Phosphor-react for use some icons
-- Uuid for create random keys
+- MongoDb for storage
 
 # How to run this projects
 ```sh
