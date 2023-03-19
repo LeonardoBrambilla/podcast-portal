@@ -1,5 +1,5 @@
 # About 
-- This project is gallery and authentication with firebase
+- This project is gallery of podcast in MERN
 
 # Setups of Project
 - React for build frontend
