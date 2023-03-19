@@ -9,8 +9,9 @@
 # How to run this projects
 ```sh
 git clone https://github.com/LeonardoBrambilla/podcast-portal.git
-npm install
-npm run server
+npm install in 2 folder
+./client npm run server
+./server npm start
 ```
 
 # Project structure
