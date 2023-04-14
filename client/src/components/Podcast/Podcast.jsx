@@ -8,10 +8,11 @@ const Podcast = () => {
   const {channelId} = useParams()
   const [podcast,setPodcast] = useState()
   useEffect(() => {
-    return async () => {
+    const get = async () => {
       const {data} = await axios.get(`https://podcast-portal-server.vercel.app/${channelId}`)
       setPodcast(data.items)
     }
+    get()
   }, [])
   return (
     <div className='Home'>
