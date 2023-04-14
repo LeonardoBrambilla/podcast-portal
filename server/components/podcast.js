@@ -41,7 +41,6 @@ exports.getAll = async (req,res) => {
 exports.getS = async (req,res) => {
   const errors = validationResult(req)
   const {channel} = req.params
-  console.log(channel)
   if(!errors.isEmpty()){
     return res.status(400).json({errors:errors.array()})
   }

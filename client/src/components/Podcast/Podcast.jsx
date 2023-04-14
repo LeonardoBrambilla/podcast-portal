@@ -18,7 +18,6 @@ const Podcast = () => {
     <div className='Home'>
       <span/>
       <ul className='Podcast'>
-        {console.log(podcast)}
         {podcast &&
           podcast.map(e=>(
             <Card 
