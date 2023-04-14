@@ -7,7 +7,7 @@ export const Home = () => {
   const [podcast,setPodcast] = useState()
   useEffect(() => {
     const get = async () => {
-      const {data} = await axios.get("http://localhost:5000/")
+      const {data} = await axios.get("https://podcast-portal-server.vercel.app/")
       setPodcast(data.data)
     } 
     get()

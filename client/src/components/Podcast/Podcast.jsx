@@ -10,7 +10,7 @@ const Podcast = () => {
   useEffect(() => {
     return async () => {
       // console.log(channelId)
-      const {data} = await axios.get(`http://localhost:5000/${channelId}`)
+      const {data} = await axios.get(`https://podcast-portal-server.vercel.app/${channelId}`)
       setPodcast(data.items)
     }
   }, [])
