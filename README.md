@@ -1,5 +1,6 @@
 # About 
 - This project is gallery of podcast in MERN
+- You can view with this link: https://podcast-portal.vercel.app/
 
 # Setups of Project
 - React for build frontend
