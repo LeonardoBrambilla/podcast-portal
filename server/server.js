@@ -8,7 +8,7 @@ app.use(cors())
 
 app.use('/',require("./routes/routes"))
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5001
 
 const start = async()=>{ 
   try{
